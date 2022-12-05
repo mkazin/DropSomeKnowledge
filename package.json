@@ -1,0 +1,22 @@
+{
+  "name": "drop-some-knowledge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "github.com/mkazin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongodb": "4.4.0",
+    "mongoose": "^6.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
