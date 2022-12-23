@@ -22,7 +22,7 @@ module.exports = {
         console.log(req.body.todoIdFromJSFile)
         try{
             await Drop.findOneAndDelete({_id:req.body.todoIdFromJSFile})
-            console.log('Deleted Todo')
+            console.log(`Deleted Todo {req.body.todoIdFromJSFile}`)
             res.json('Deleted It')
         }catch(err){
             console.log(err)

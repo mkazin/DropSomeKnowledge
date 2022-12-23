@@ -16,6 +16,11 @@ const DropSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",
   },
+  tags: {
+    type: [String],
+    required: false,
+    default: [],
+  },
   createdAt: {
     type: Date,
     default: Date.now,
